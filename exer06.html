@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vendo o DOM</title>
+    <link rel="stylesheet" href="java.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+  <h1>arvore de DOM</h1>
+  <p>vamos aprender sobre arvore de 
+    <p>corno</p>
+  <strong>DOM</strong></p>
+  <div id="msg">Clique em mim</div>
+
+  <script>
+    var corpo= window.document.body
+    var p1= window.document.getElementsByTagName('p')[0]
+    /*var d = window.document.get('msg')
+    d.style.color= 'blue'
+    d.style.fontFamily= 'arial narrow'
+    d.style.textAlign= 'center'*/
+    p1.style.color= 'blue'
+    window.alert(`olha so ${p1}`)
+    
+  </script>
+    
+</body>
+</html>

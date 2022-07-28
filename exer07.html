@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vendo o DOM</title>
+    <link rel="stylesheet" href="java.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+      div#area{
+        font: normal 1.5em arial;
+        background-color: chartreuse;
+        color: white;
+        width: 250px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+  <div id="area">
+    cornooooooo)
+
+  </div>
+
+  <script>
+    
+    var a = window.document.getElementById("area")
+    a.addEventListener('click', clicar)
+    a.addEventListener('mouseenter', entrar)
+    a.addEventListener('mouseout', sair)
+    function clicar(){
+        
+        a.innerText = 'clicou!'
+        a.style.background='red'
+        a.style.color= 'black'
+    }
+    function entrar(){
+      a.innerText = 'entrou'
+      a.style.background= 'pink'
+    }
+    function sair(){
+      a.innerText = 'sair'
+      a.style.background= 'green'
+      a.style.color='white'
+    }
+    
+    
+  </script>
+    
+</body>
+</html>
