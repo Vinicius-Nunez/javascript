@@ -1,54 +1,24 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    
-
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt arial;
 }
-
-body 
-{
-    background-color: rgba(0, 174, 255, 0.781);
+header{
+    color: white;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-    
 }
-#veri{
-    font-size: 1.8em;
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);
 }
-select{
+select#flista{
     width: 150px;
 }
-#vetor{
-    margin: 15px;
-    transform: translate(-147%,5%);
-}
-.vet{
-    transform: translate(-406%, 80%);
-}
-
-
-section{
-
-    width: 645px;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: auto;
-    font-size: 1.0em;
-    padding: 25px;
-}
-
-
-
-.imagem{
-    
-    padding: 10px;
-    text-align: left;
-    
-}
-.flu{
+footer{
+    color: white;
     text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic
 }
